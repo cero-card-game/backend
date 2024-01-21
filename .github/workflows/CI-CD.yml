@@ -44,12 +44,15 @@ jobs:
             ghcr.io/cero-card-game/cero-backend        
           # generate Docker tags based on the following events/attributes
           tags: |
-            type=schedule
+            type=schedule,pattern=nightly
             type=ref,event=branch
             type=ref,event=pr
             type=semver,pattern={{version}}
             type=semver,pattern={{major}}.{{minor}}
+            type=semver,pattern=v{{major}}.{{minor}}
             type=semver,pattern={{major}}
+            type=semver,pattern=v{{major}}
+            type=semver,pattern={{raw}}
             type=sha            
       -
         name: Set up QEMU
