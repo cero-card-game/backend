@@ -5,7 +5,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 	<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	  <NoWarn>SA1633;SA1623;SA1642</NoWarn>
   </PropertyGroup>
+
 
   <ItemGroup>
     <None Remove="stylecop.json" />

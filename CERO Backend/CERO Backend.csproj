@@ -8,6 +8,7 @@
     <RootNamespace>CERO_Backend</RootNamespace>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
 	<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	  <NoWarn>SA1633;SA1623;SA1642</NoWarn>
   </PropertyGroup>
 
 

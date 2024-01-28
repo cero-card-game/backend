@@ -8,8 +8,8 @@ namespace Models.GameLogic.Models.Events
         /// <summary>
         /// Initialises a new instance of the <see cref="DrawnCardVoluntaryEvent"/> class.
         /// </summary>
-        /// <param name="playerId">Id of the player that drew the card.</param>
-        /// <param name="drawnCard">Insatnce of <see cref="ICard"/>.</param>
+        /// <param name="playerId">The Id of the player that played the card.</param>
+        /// <param name="drawnCard"><see cref="ICard"/> that the player drew.</param>
         public DrawnCardVoluntaryEvent(Guid playerId, ICard drawnCard)
         {
             this.PlayerId = playerId;

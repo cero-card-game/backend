@@ -5,7 +5,7 @@ VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CERO Backend", "CERO Backend\CERO Backend.csproj", "{CDC0EC78-242E-4F05-9DF5-3756A1CC25E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "models", "models\models.csproj", "{9B07A038-F861-4D4D-9A14-C3C219A746D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "models", "Models\models.csproj", "{9B07A038-F861-4D4D-9A14-C3C219A746D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
